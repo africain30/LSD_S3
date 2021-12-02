@@ -1,0 +1,34 @@
+tp00:
+sesion 2:
+14/10/2021
+CHARAF YOUSRI;
+
+
+exercice 1:
+
+1/ an integer needs 32 bites to be stored;
+
+
+2/ an integer needs 4  bytes to be stored;
+
+
+3/00000000
+  00000010
+  00000100
+  it gave :0,2,4;
+
+
+4/ when we shift a number by 1 to the left, and we wnat to convert it to the dicimale againe , we use :
+     IN  BINARY :  Dn.......D5D4D3D2D1D0
+     IN DICIMAL : = Dn*POW(2,n)+D5*POW(2,5)+D4*POW(2,4)+.......D0*POW(2,0);
+
+because shiftin to the right is the same as multipling the number in 10 (in the base of 2) , which is equivilante to multipling by 2 in dicimale numbers.
+(the same think is valable b for shifting to the left, except this time we divide the number by 2);
+
+
+5/  the maximum value that can be stored in an unsigned char is : pow(2,7), becuae an insigned char is stored in one byte , which is 8 byte .
+
+
+6/  but for a char , the maximum value that can be stored is pow(2,7)-1, because the first bite is reserved for the signe of the char(if it is 1 = posituve , if 0 it is negative).
+     
+    
