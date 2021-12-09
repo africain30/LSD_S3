@@ -22,9 +22,10 @@ print("-----------------------------------------")
 
 
 #exercice 05
-#for i in range(6):
-  #for j in range(i):
-    #print( "i" *j    ,sep= ' ' , '\n')
+a = ' '
+for i in range(6):
+	a = a +' {} '.format(i)
+	print(a)
 print("-----------------------------------------")
 
 
