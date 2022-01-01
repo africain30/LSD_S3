@@ -54,3 +54,10 @@ frames = [f1 ,f2]
 result = pd.concat(frames)
 print(result)
 
+#EXERCICE 10
+Car_Price = pd.DataFrame({'Company': ['Toyota', 'Honda', 'BMV', 'Audi'], 'Price': [23845, 17995, 135925 , 71400]})
+car_Horsepower = pd.DataFrame({'Company': ['Toyota', 'Honda', 'BMV', 'Audi'], 'horsepower': [141, 80, 182 , 160]})
+
+result = pd.merge(Car_Price, car_Horsepower)
+print(result)
+
