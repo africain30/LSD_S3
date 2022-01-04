@@ -7,8 +7,10 @@
 
 #EXERCICE 01
 class square:
-	def __init__(self , l):   
-	  self.l=l
+	def __init__(self , l):  
+		if type(l)!=int() and type(l)!= float():
+      			raise ValueError 
+		self.l=l
 	def area(self):
 		return (self.l)**2
 	def perimeter(self):
