@@ -5,18 +5,22 @@
 #EXERCICE 01
 #Explain the reference of variables :
 
-# Person : the class 
-# person : variable of type Person (it is an object)
-# surname : is a carracterestique of the variable person
-# age :  is the age of the object "person"
-# AGE : is a methode of the class "Person" that returns the age of "person"
-# self.email =  
-# person.email = 
+Person : the class 
+person : variable of type Person (it is an object)
+surname : is a carracterestique of the variable person
+age :  is the age of the object "person"
+AGE : is a methode of the class "Person" that returns the age of "person"
+self.email =  
+person.email = 
 
 
 #EXERCICE 02
 
 #EXERCICE 03
+name : 
+surname :
+profession :
+
 #EXERCICE 04
 class number():
   MULTIPLIER  = 5
