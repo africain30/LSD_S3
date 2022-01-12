@@ -1,3 +1,7 @@
+# Charaf YOUSRI
+# LSD 2 : S3
+# DEC / 2021
+
 import numpy as np
 import math as m
 #numpy
